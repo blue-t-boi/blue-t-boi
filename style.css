@@ -13,6 +13,11 @@ hr {
   transform: translate(-50%, -50%)
 }
 
+.title {
+  text-align: center;
+  font-size: 7vw;
+}
+
 body {
   font-family: Righteous;
   background: linear-gradient(#78b0ff, #657efc);
