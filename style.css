@@ -2,10 +2,10 @@
 
 @keyframes titleEffect {
   from {
-    letter-spacing: -.4em;
+    letter-spacing: -1em;
   }
   to {
-    letter-spacing: .0em;
+    letter-spacing: 0em;
   }
 }
 
