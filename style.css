@@ -24,7 +24,7 @@ hr {
   margin: 20px 20px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 32px;
+  border-radius: 2em;
 }
 
  .button1 {
