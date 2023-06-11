@@ -9,6 +9,15 @@
   }
 }
 
+@keyframes buttonanim {
+  from {
+    letter-spacing: -.4em;
+  }
+  to {
+    letter-spacing: 0em;
+  }
+}
+
 hr {
   border: 0px;
 }
@@ -42,6 +51,7 @@ hr {
    height: 100px;
    background: linear-gradient(#99c3ff, #8b9efc);
    color: black;
+   animation: buttonanim 1s
 }
 
 .title {
