@@ -34,12 +34,12 @@ hr {
 .button {
   border: none
   color: white;
-  padding: 12px 12px;
+  padding: 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 32px;
-  margin: 20px 20px;
+  margin: 0px;
   transition-duration: 0.5s;
   cursor: pointer;
   border-radius: 2em;
