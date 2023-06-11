@@ -21,4 +21,6 @@ hr {
 body {
   font-family: Righteous;
   background: linear-gradient(#78b0ff, #657efc);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
