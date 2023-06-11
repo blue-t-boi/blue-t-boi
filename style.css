@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-@keyframes titleEffect {
+@keyframes titleanim {
   from {
     letter-spacing: -1em;
   }
@@ -31,7 +31,7 @@ hr {
   display: inline-block;
   font-size: 32px;
   margin: 20px 20px;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
   cursor: pointer;
   border-radius: 2em;
 }
@@ -47,6 +47,7 @@ hr {
 .title {
   text-align: center;
   font-size: 5vw;
+  animation: titleanim 1s
 }
 
 .button:hover {
