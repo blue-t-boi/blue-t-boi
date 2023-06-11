@@ -9,6 +9,15 @@
   }
 }
 
+@keyframes buttonsize {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 @keyframes buttonanim {
   from {
     letter-spacing: -.4em;
@@ -51,13 +60,13 @@ hr {
    height: 100px;
    background: linear-gradient(#99c3ff, #8b9efc);
    color: black;
-   animation: buttonanim 1s
+   animation: buttonanim 0.75s
 }
 
 .title {
   text-align: center;
   font-size: 5vw;
-  animation: titleanim 1s
+  animation: titleanim 0.75s
 }
 
 .button:hover {
