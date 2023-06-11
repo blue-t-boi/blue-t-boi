@@ -23,7 +23,22 @@ hr {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
- .button {
+
+.button {
+  border: none
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 20px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 32px;
+}
+
+ .button1 {
    font-family: Righteous;
    width: 480px;
    height: 100px;
@@ -31,6 +46,7 @@ hr {
    color: black;
    animation: buttonanim 0.75s
 }
+
 .title {
   text-align: center;
   font-size: 7vw;
