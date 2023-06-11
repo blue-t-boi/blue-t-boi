@@ -9,21 +9,12 @@
   }
 }
 
-@keyframes buttonsize {
+@keyframes buttonanim {
   from {
     transform: scale(0);
   }
   to {
     transform: scale(1);
-  }
-}
-
-@keyframes buttonanim {
-  from {
-    letter-spacing: -.4em;
-  }
-  to {
-    letter-spacing: 0em;
   }
 }
 
