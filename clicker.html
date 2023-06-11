@@ -4,9 +4,11 @@
     <link rel="stylesheet" href="https://bluetanimates.github.io/style.css">
     <link rel="shortcut icon" type="image/png" href="https://bluetanimates.github.io/images/ico.png">
     <script>
+      
       let smiley = 0;
+      
       document.getElementById("smileys").addEventListener("click", function () {
-        smileys++
+        smileys = smileys + 1;
         document.getElementById("smileysText").innerText = "Smileys: " + smileys;
       });
     </script>
