@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@keyframes titleEffect {
+  from {
+    letter-spacing: -.4em;
+  }
+  to {
+    letter-spacing: .0em;
+  }
+}
+
 hr {
   border: 0px;
 }
