@@ -2,46 +2,17 @@
 
 <head>
     <title>Clicker Game</title>
-    <style>
-        body {
-            background-color: black;
-            text-align: center;
-        }
-
-        h1 {
-            color: orange;
-        }
-
-        h2 {
-            color: white;
-        }
-
-        p {
-            color: white;
-            font-size: 1.2em;
-        }
-
-        img {
-            padding: 20px;
-            border: 3px solid grey;
-            border-radius: 10px;
-        }
-
-        img:hover {
-            border: 3px solid maroon;
-        }
-    </style>
 </head>
 
 <body>
 
-    <h1>Welcome to the clicker game</h1>
+    <h1>Smiley Clicker</h1>
 
-    <p>Click the button to get a higher score!</p>
+    <p>Click the button to get a smiley!</p>
 
-    <p id="scoreText">Score: 0</p>
+    <p id="smileyText">Smileys: 0</p>
 
-    <button id="score">Click me!</button>
+    <button id="smileys">Smiley</button>
 
     <h2>Store</h2>
     <p>Clicker: 10 clicks</p>
@@ -55,34 +26,34 @@
 
     <script>
 
-        let score = 0;
+        let smileys = 0;
         let clickers = 1;
         let autoClickers = 0;
 
-        document.getElementById("score").addEventListener("click", function () {
-            score = score + clickers;
-            document.getElementById("scoreText").innerText = "Score: " + score;
+        document.getElementById("smileys").addEventListener("click", function () {
+            smileys = smileys + clickers;
+            document.getElementById("smileyText").innerText = "Smileys: " + smileys;
         });
 
         document.getElementById("buy").addEventListener("click", function () {
-            if (score >= 10) {
+            if (smileys >= 10) {
                 clickers = clickers + 1;
-                score = score - 10;
+                smileys = smileys - 10;
                 document.getElementById("clicker").innerText = "x" + clickers;
-                document.getElementById("scoreText").innerText = "Score: " + score;
+                document.getElementById("smileyText").innerText = "Smileys: " + smileys;
             }
         });
 
         document.getElementById("buy-auto-clicker").addEventListener("click", function () {
-            if (score >= 1000) {
+            if (smileys >= 1000) {
                 autoClickers = autoClickers + 1;
-                score = score - 1000;
-                document.getElementById("scoreText").innerText = "Score: " + score;
+                smiley = smiley - 1000;
+                document.getElementById("smileyText").innerText = "Smileys: " + smileys;
                 document.getElementById("auto-clickers").innerText = "x" + autoClickers;
 
                 setInterval(function () {
-                    score = score + clickers;
-                    document.getElementById("scoreText").innerText = "Score: " + score;
+                    smiley = smiley + clickers;
+                    document.getElementById("smileyText").innerText = "Smileys: " + smileys;
                 }, 1000);
             }
         });
