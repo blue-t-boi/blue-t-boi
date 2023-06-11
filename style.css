@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 hr {
   border: 0px;
 }
@@ -9,4 +11,8 @@ hr {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+}
+
+body {
+  font-family: Righteous
 }
