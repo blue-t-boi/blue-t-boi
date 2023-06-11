@@ -41,7 +41,7 @@ hr {
 }
 
 .button:hover {
-  transform: scale(100);
+  transform: scale(1.1);
   letter-spacing: .2em;
   background: linear-gradient(#ffffff, #ccccb8);
   color: black
