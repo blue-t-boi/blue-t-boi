@@ -2,7 +2,7 @@
 
 @keyframes titleanim {
   from {
-    letter-spacing: -1em;
+    letter-spacing: -.4em;
   }
   to {
     letter-spacing: 0em;
