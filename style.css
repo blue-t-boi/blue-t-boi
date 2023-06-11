@@ -15,5 +15,5 @@ hr {
 
 body {
   font-family: Righteous
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background: linear-gradient(red, yellow);
 }
