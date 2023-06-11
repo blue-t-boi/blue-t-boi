@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>BTA Website</title>
+    <link rel="stylesheet" href="https://bluetanimates.github.io/style.css">
+    <link rel="shortcut icon" type="image/png" href="https://bluetanimates.github.io/images/ico.png">
+    <script>
+      var smiley = 0;
+      function smiley_clicked(){
+        smileys++
+        document.querySelector("#smileys").innerHTML = "Smileys: "+smileys
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+      <div class="title">Smiley Clicker</div>
+      <h1 id="clicks"> Smileys: 0 </h1>
+      <button onclick="smiley_clicked()">SMILEY</button>
+    </center>
+  </body>
+</html>
