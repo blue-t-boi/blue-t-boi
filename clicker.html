@@ -11,14 +11,14 @@
         <h1>Smiley Clicker</h1>
         <p>Click the button to get a smiley!</p>
         <p id="smileyText">Smileys: 0</p>
-        <button id="smileys">Smiley</button>
+        <button id="smileys"><img src="smiley.png" alt="A Smiley Face"></button>
         
         <h2>Store</h2>
-        <p>Clicker: 10 clicks</p>
+        <p>Clicker: 25 Smileys</p>
         <img id="buy" src="ico.png" width=50px>
         <p id="clicker">x1</p>
         
-        <p>Auto Clicker: 1000 clicks</p>
+        <p>Auto Clicker: 1000 Smileys</p>
         <img id="buy-auto-clicker" src="ico.png" width=50px>
         <p id="auto-clickers">x0</p>
     </center>
@@ -35,7 +35,7 @@
         });
 
         document.getElementById("buy").addEventListener("click", function () {
-            if (smileys >= 10) {
+            if (smileys >= 25) {
                 clickers = clickers + 1;
                 smileys = smileys - 10;
                 document.getElementById("clicker").innerText = "x" + clickers;
